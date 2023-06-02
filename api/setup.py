@@ -59,7 +59,7 @@ DESCRIPTION = (
 )
 PACKAGES = find_packages(where="src")
 INSTALL_REQUIRES = [
-    f"opentrons-shared-data=={VERSION}",
+    # Remove opentrons-share-data amd add it to your personal pyproject
     "aionotify>=0.2.0,<1",
     "anyio>=3.3.0,<4",
     "jsonschema>=3.0.2,<5",
